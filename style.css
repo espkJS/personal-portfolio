@@ -36,18 +36,23 @@ header {
 
 }
 
-.nav-inks li a:hover{
+.nav-links li a:hover{
     transition: all 0.3s ease 0s;
+    color: lightgray;
 }
 
 button {
     padding: 9px 15px;
     margin: auto 15px;
-    background-color: blue;
+    background-color: lightskyblue;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: lightgray;
 }
 
 .section {
@@ -77,5 +82,5 @@ p {
     max-height: 300px;
     border-radius: 50%;
     border-color: white;
-    border: white 5px solid;
+    border: lightskyblue 5px solid;
 }
